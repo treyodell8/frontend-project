@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="scratch.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Dictionary</title>
+  </head>
+
+  <body>
+    
+    <div id="main">
+      <div id="header">
+        <h1 id="dictionary">English Dictionary</h1>
+            <h4>Type in any English word and hit define!</h4>
+            <div id="user-section">
+                <input id="search-bar" type="text" name="search" placeholder="Search a word..." />
+                <button id="submit">Define</button>
+              
+            </div>
+      </div>
+      
+    <div id="side-bar">
+      <h1 id="nav-tools">Navigation Tools</h1>
+      <ul id="nav-bar">
+        <li>
+          <a href="https://en.wiktionary.org/wiki/Wiktionary:Main_Page"
+          target="_blank">wiktionary</a
+          >
+        </li>
+        <li><a href="https://www.dictionary.com/" target="_blank">dictionary</a></li>
+        <li><a href="https://www.thesaurus.com/" target="_blank">thesaurus</a></li>
+        <li><a href="https://dictionaryapi.dev/" target="_blank">Dictionary API</a></li>
+      </ul>
+      <img id="reading" src="reading.png" alt="Italian Trulli">
+    </div>
+
+    <div id="results"></div>
+    
+    
+  </body>
+</html>

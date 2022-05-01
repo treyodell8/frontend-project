@@ -1,0 +1,137 @@
+#logo {
+    display: inline-block;
+    margin: 15px; /* margin: 20px was off */
+    float: left;
+    height: 60px;
+    width: auto; /* correct proportions to specified height */
+    border-radius: 50%; /* makes it a circle */
+    width:fit-content
+  }
+
+  body {
+      font-size: 20px;
+      background-color: lightblue;
+  }
+
+
+#dictionary {
+    color: lavender;
+}
+
+#header {
+    width: 100%;
+    margin: 40px auto 0px;
+    color: white;
+    background: #483D8B;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 8px 8px 0px 0px;
+  }
+
+h2 {
+    color: navy;
+    text-align: center;
+    float:inline-start;
+    max-width: fit-content;
+    border-radius: 8px 8px 0px 0px;
+    border: 5px solid #483D8B;
+    margin: 40px auto 0px;
+}
+
+.results {
+    background-color: purple;
+}
+
+.define {
+    color: blue;
+}
+
+
+
+#user-section {
+    
+    margin: auto;
+    border-color: yellowgreen;
+    width:fit-content
+   
+}
+/*button */
+#submit {
+    background-color: #008CBA;
+    color:navy;
+    padding: 8px 17px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+  /*all about the navigation bar */
+#nav-tools {
+    color: #008CBA;
+    font: bold;
+}
+
+#side-bar {
+    background-color: lightblue;
+    max-width: 300px;
+    float: right;
+}
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #nav-tools {
+      text-align: center;
+  }
+
+  li a {
+    display: block;
+  }
+
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  ul {
+    border: 1px solid #555;
+  }
+  
+  li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+
+
+  .holderDivs .h3Headers {
+    background-color:indigo;
+    color: white;
+    max-width: fit-content;
+}
+
+.holderDivs {
+    border: 1px solid gray;
+    background-color: #3d6d8b;
+    border-radius: 8px 8px 0px 0px;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+    max-width: 500px;
+    padding: 1%;
+    margin:2%
+    
+    
+}
+
+#reading {
+    max-width: 300px;
+    margin: 3%;
+}
