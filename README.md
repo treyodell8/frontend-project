@@ -11,5 +11,5 @@ Students generally had free reign to choose whatever they wanted to do, except t
 
 I have created a dictionary application, using a free API I found online.
 In the application, users can type in any english word, and information will be appended to the DOM and display on the screen.
-There external links, as well as a navigation bar.
+There are external links, as well as a navigation bar.
  
