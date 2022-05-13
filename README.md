@@ -2,7 +2,7 @@
 Dictionary API
 This is my Dictionary API.
 Here, we were assigned, with vague instructions, to create a front-end application over the course of two days.  
-Students generally had free reign to choose whatever they wanted they wanted to do, except the project MUST have:
+Students generally had free reign to choose whatever they wanted to do, except the project MUST have:
 
 1. INTERACTION: Must have at least one event listener.
 2. AJAX: Must have at least one AJAX call to an API.
